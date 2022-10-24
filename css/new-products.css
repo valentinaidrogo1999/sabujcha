@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap');
+
+/*-------------seccion 4 contenedor de las imagenes products*/
+
+
+.encabezado{
+    background-color:#f0f0f0;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.titulo2{
+width: 50%;
+position:relative ;
+left: 25%;
+top: 50px;
+
+   
+}
+.encabezado h2{
+    text-align: center;
+    font-size: 40px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    
+}
+.encabezado p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lora', serif;
+    
+}
+/*------- carrosel de las imagnes New products------------*/
+
+
+.imagenes{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 90px;
+    padding-top: 30px;
+    
+}
+/*---------------------------imagen 1-------------------------------*/
+.imagen-1{
+    background-image: url(../imagenes/product-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+    
+}
+.encabezado .porciento{
+    background-color:#529F0F;
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    font-size: 11px;
+   padding: 8px 3px;
+   margin-top: 20px;
+  margin-left: 10px;
+  color: #ffffff;
+    font-weight: 900;
+}
+/*---------------------------imagen 2-------------------------------*/
+.imagen-2{
+    background-image: url(../imagenes/product-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+ 
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+}
+/*---------------------------pie de las imagenes-------------------------------*/
+.contenido-de-product2{
+   
+    padding: 10px;
+    margin-top: 80%;
+    margin-right: 50%;
+}
+.contenido-de-product2 h2{
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+      width: 120%;
+    color: #575757;
+    margin: 0 0 10px;
+}
+.contenido-de-product2 p{font-size: 10px;
+
+}
+.contenido-de-product2 span{
+    text-decoration: line-through;
+    color: #575757  ;
+	
+}
+/*---------------------------imagen 3-------------------------------*/
+
+.imagen-3{
+    background-image: url(../imagenes/product-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+
+}
+.imagen-3 a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*pie de las imagenes*/
+.contenido-producto2{
+    padding: 10px;
+    margin-top: 100%;
+    margin-right: 50%;
+    width: 60%;
+}
+.contenido-producto2 h2{
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    color: #575757;
+    margin: 0 0 10px;
+
+}
+.contenido-producto2 p{
+    font-size: 10px
+
+}
+.contenido-producto2 span{
+    text-decoration: line-through;
+    color: #575757 ;
+	
+}
+/*---------------------------imagen 4-------------------------------*/
+.imagen-4{
+    background-image: url(../imagenes/product-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+
+}
+
+/*---------------------------imagen 5-------------------------------*/
+
+.imagen-5{
+    background-image: url(../imagenes/product-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+
+}
+
+/*---------------------------imagen 6-------------------------------*/
+
+.imagen-6{
+    background-image: url(../imagenes/product-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+
+}
+
+/*---------------------------imagen 7-------------------------------*/
+
+
+.imagen-7{
+    background-image: url(../imagenes/product-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+
+}
+
+/*---------------------------imagen 8-------------------------------*/
+
+.imagen-8{
+    background-image: url(../imagenes/product-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 15rem;
+    margin: 70px auto;
+    height: 15rem;
+
+}
+
+@media(max-width:470px){
+     /*------------------Tamaños de las imagenes-------------------*/
+    .imagen-1{
+        width: 15rem;
+        height: 9rem;
+        
+    }
+    .imagen-2{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+    .imagen-2{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+
+    .imagen-3{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+
+    .imagen-4{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+
+    .imagen-5{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+    .imagen-6{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+    .imagen-7{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+    .imagen-8{
+        width: 10rem;
+        height: 9rem;
+
+
+    }
+      /*------------medidas de pie de las imagenes -----------------*/
+    .contenido-producto2{
+        margin-top: 10rem;
+    }
+
+    .contenido-de-product2{
+        margin-top: 8rem;
+    }
+    .contenido-de-product2 h2{
+        font-size: 10px;
+          width: 7rem;
+        
+    }
+    .contenido-de-product2 p{
+        width: 7rem;
+    
+    }
+
+    .contenido-producto2 h2{
+        font-size: 10px;
+        width: 7rem;
+        
+       
+    
+    }
+    .contenido-producto2 p{
+        width: 7rem;
+      
+    
+    }
+   /*medidas de los circulos verdes de descuento %*/
+    .encabezado .porciento{
+        width: 23%;
+        height: 20%;
+       margin-top: 10px;
+      margin-left: 8px;
+      
+    }
+    /*----------cambios del formulario---------------*/
+    .join{
+        font-size: 30px;
+    }
+    form h2{
+        padding-top: 60px;
+        margin-bottom: -100px;
+    }
+    .padre-formulario{
+        justify-content:start;
+     }
+    .correo{
+        padding: 20px;
+        width: 45vw;
+    }
+    .boton{
+        border: none;
+        padding: 22px;
+        background-color: #000;
+        color: #fff;
+        width:28vw ;
+        font-weight: 900;
+    
+    }
+
+
+}

@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.padre{margin: 5px 30px;
+	height: 100%;
+	box-sizing: border-box;
+    
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.banner{
+	margin-top: 50px;
+	position: relative;
+	
+	
+}
+.banner img{
+	
+	width: 100%;
+	height: 100%;
+
+	
+	
+}
+.banner .contenedor{
+	position:absolute;
+	top: 40%;
+	left:35%;
+}
+.banner h1 {
+	
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	color: #0a0a0a;
+	text-align: center;
+}
+.banner a{
+	font-size: 15px;
+	color: #000;
+	margin-left: 40%;
+}
+/*-----------nueva prueba-------------------*/
+
+.seccion3{
+	display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+.banner1{
+	background-image: url(../imagenes/banner-1.png);
+	background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 20rem;
+    margin: 5px 10px;
+    height: 10rem;
+}
+.banner1 h2{
+    color: green;
+    font-size: 20px;
+    margin-top: 18%;
+    margin-left: 24px;
+
+}
+.banner1 p{
+    font-size: 11px;
+    margin-left: 12px;
+    font-family: 'lora';
+   
+}
+/*diseño de la segunda imagen de banner*/
+
+.banner2{
+    background-image: url(../imagenes/banner-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    margin: 5px 10px;
+    width: 20rem;
+    height: 10rem;
+    
+}
+.banner2 h2{
+    color: green;
+    font-size: 22px;
+    margin-top: 18%;
+    margin-left: 20px;
+
+}
+.banner2 p{
+    font-size: 11px;
+    margin-left: 12px;
+    font-family: 'lora';
+   
+}
+
+
+
+/*-------------seccion 4 contenedor de las imagenes products*/
+
+.los-products{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   padding-bottom: 50px;
+
+
+}
+
+.seccion4{
+	
+	
+	background-image: url(../imagenes/bg-1.jpg);
+	background-size: cover;
+	background-position: left;
+	width: 100%;
+	height: 100%;
+	margin: 5px 10px;
+}
+
+/*-----------primera imagen del product----------*/
+
+.product1 {
+  background-image: url(../imagenes/product-1.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  width: 10rem;
+  margin: 70px auto;
+  height: 10rem;
+}
+.porcentaje1{
+	background-color: #529F0F;
+    width: 2rem;
+    height: 2rem;
+    border-radius:40px;
+    margin: 10px 10px;
+	box-sizing: border-box;
+	
+}
+.porcentaje1 p{
+	color: antiquewhite;
+	font-size: 10px;
+    text-align: center;
+	padding-top: 10px;
+	font-weight: 1000;
+} 
+
+/*-----------pie de las imagenes----------*/
+
+.seccion4 h2{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #333333;
+	margin-top: 40px;
+	padding-top: 70px;
+}
+.seccion4 p{
+	
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+.contenido-de-producto{
+   
+    margin: 60px 10px;
+	
+	
+}
+.contenido-de-producto h2{
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    color: #575757;
+    margin: 0 0 10px;
+}
+.contenido-de-producto p{font-size: 10px;
+
+}
+.contenido-de-producto span{
+    text-decoration: line-through;
+    color: #575757 ;
+	
+}
+/*-----------segunda imagen del product----------*/
+.products2{
+  background-image: url(../imagenes/product-2.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  width: 10rem;
+  margin: 70px auto;
+  height: 10rem;
+
+}
+
+.products3{
+	background-image: url(../imagenes/product-3.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	width: 10rem;
+	margin: 70px auto;
+	height: 10rem;
+}
+.products2 .contenido-de-producto {
+	padding-top: 60px;
+	}
+/* cuarta imagen de los products*/
+
+.products4{
+	background-image: url(../imagenes/product-4.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	width: 10rem;
+	margin: 70px auto;
+	height: 10rem;
+}
+.products4 .contenido-de-producto {
+
+	padding-top: 70px;
+	}
+
+
+/*seccion 5*/
+
+
+
+/*---------------parrafos seccion de bienvenidos--------------*/
+
+.bienvenido{
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 40px;
+	margin: 100px auto;
+	
+	
+
+}
+
+.texto{
+	font-family: 'Lora', serif;
+}
+.nombre{
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 15px;
+	font-weight: 1000;
+	font-size: 15px;
+
+}
+.customer{
+	font-size: 13px;
+	color: #575757;
+	margin-top: 10px;
+}
+
+/*-----------------------------------formulario-----------------------*/
+form{
+	background-image: url(../imagenes/bg-2.jpg);
+	height: 25rem;
+	margin-top: 40px;
+}
+.join{
+
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Lora', serif;
+}
+form h2{
+	padding-top: 60px;
+	margin-bottom: -90px;
+}
+
+.padre-formulario{
+
+   display: flex;
+   justify-content:center;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   
+
+}
+.formulario{
+	position: relative;
+	top: 10rem;
+	margin: 0;
+	padding: 0;
+}
+.correo{
+	padding: 30px;
+	width: 30vw;
+	border: 1px solid rgb(197, 196, 196);
+	font-family: 'Lora', serif;
+}
+.boton{
+	border: none;
+	padding: 30px;
+	background-color: #000;
+	color: #fff;
+	width:15vw ;
+	font-weight: 900;
+
+}
+
+
+/*----------------------imagenes latest news------------------*/
+
+article{
+	
+	background-image: url(../imagenes/bg-1.jpg);
+	margin-top: 40px;
+}
+.latest-new{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	
+}
+
+.enlace {
+	font-family: 'Playfair Display', serif;
+	text-align: center;;
+	font-size: 30px;
+	color: #1d1b1b;
+}
+.enlace h2{
+	padding-top: 60px;
+}
+
+
+laste-1 img{
+	width: 100%;
+	height: 100%;
+}
+/*----------diseño de la primera imagen lastest */
+
+
+
+.laste-1 {
+	
+	width: calc(375px - 24px);
+	box-sizing: border-box;
+	margin-top: 10%;
+	
+}
+.laste-1 img{
+	width: 100% ;
+
+}
+.cordenadas {
+	padding: 16px;
+}
+.sep{
+	color: #529F0F;
+	font-size: 20px;
+	font-family: 'Lora', serif;
+	
+}
+
+h3{
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.cordenadas  p{
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'Lora', serif;
+	color: #575757;
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+}
+.cordenadas .read{
+	color: #575757;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 900;
+
+} /*logos en la ultima parte cerca del footer*/
+
+.seccion-6{ display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding-top: 100px;
+width: 100%;
+height: 100%;
+margin-bottom: 60px;
+margin: 5px auto;
+
+}
+
+.seccion-6 img{
+
+	margin: 30px 30px;
+}
+
+@media(max-width:470px){
+	.banner .contenedor{
+	top: 35%;
+	left:30%;
+}
+.banner h1 {
+	font-size: 10px;
+}
+.banner a{
+	font-size: 15px;
+	color: #000;
+	margin-left: 30%;
+}
+
+
+}
+
+@media(max-width:900px){
+	.banner h1 {
+		font-size: 30px;
+	}
+}
+
+@media(max-width:550px){
+	.banner h1 {
+		font-size: 20px;
+	}
+}
+
+
+
+
